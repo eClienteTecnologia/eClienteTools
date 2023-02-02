@@ -1,189 +1,3 @@
-<!-- <DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Gerador de Senhas</title>
-    <style>
-      body{
-        font-family: Roboto, sans-serif;
-        background-color: #EBEAF6;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      .wrap{
-        width: 450px;
-        background-color: #fff;
-        padding: 40px;
-        border-radius: 8px;
-        text-align: center;
-      }
-      h4{
-        padding: 0 0 15px;
-        color: rgb(0, 132, 255);
-        font-size: 18px;
-        line-height: 26px;
-      }
-      .result{
-        font-size: 28px;
-        font-weight: 700;
-        background-color: rgb(0, 110, 255);
-      }
-      .options{
-        margin:  30px;
-      }
-      .options select{
-        border: 2px solid #EBEAF6;
-        padding: 10px;
-        width: 100px;
-        font-size: 18px;
-        font-weight: 700;
-      }
-      .button{
-        display: inline-block;
-        background: linear-gradient();
-        border: 0;
-        padding: 15px 35px;
-        border-radius: 50px;
-        color: #fff;
-        font-size: 18px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all ease 0.5s;
-      }
-      .button:hover{
-        transform: scale(1.055);
-      }
-
-    </style>
-
-</head>
-<body>
-    <div class="wrap">
-        <h4>Gerador de senhas</h4>
-   
-    <div class="result">Aqui será gerada sua senha</div>
-    <div class="options"></div>
-        <b>Selecione a quantidade de caracteres</b>
-        <select class="selectdigit">
-        <option>8</option>
-        <option>9</option>
-        <option>10</option>
-        <option>11</option>
-        <option>12</option>
-        <option>13</option>
-        <option>14</option>
-        <option>15</option>
-        <option>16</option>
-        <option>17</option>
-        <option>18</option>
-        <option>19</option>
-        <option>20</option> 
-        </select>
-    </div>
-    <button class="button">Gerar senha</button>
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-<script>
-  $(function(){
-      $(".button").on('click', function(){
-
-        $(".selectdigit").on('change', function(){
-            x = $(this).val();
-        }).change();
-
-
-          var length = x,
-
-          character = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890!@#$%^&*";
-
-          retVal = "";
-
-          for (var i = 0,n = caracter.length; i < length; ++i) {
-              retVal += character.charAt(Math.floor(Math.random() * n ));
-          }
-
-          $(".result").text(retVal);
-      });
-  });
-
-</script>
-</body>
-</html> -->
-
-
-<!-- Jquery -->
-
-<!-- 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Gerador de senhas</title>
-</head>
-<body>
-  <div id="container">
-    <h2>Gerador de Senhas</h2>
-    <div id="result-container">
-      <span id="result"></span>
-      <button class="btn" id="clipboard">
-          <i class="far clipboard"></i>
-      </button>
-    </div>
-    <div class="settings">
-    <div class="setting">
-      <label for="length">Comprimento da Senha</label>
-      <input type="number" id="length" min="8" max="20" value="20" />
-    </div>
-    <div class="setting">
-      <label for="uppercase">Incluir letras Maiusculas</label>
-      <input type="checkbox" id="uppercase" />
-    </div>
-    <div class="setting">
-      <label for="lowercase">Incluir letras minusculas</label>
-      <input type="checkbox" id="lowercase" />
-    </div>
-    <div class="setting">
-      <label for="symbols">Incluir sinbolos</label>
-      <input type="checkbox" id="synbols" />
-    </div>
-    <div class="setting">
-      <label for="number">Incluir numeros</label>
-      <input type="checkbox" id="number" />
-    </div>
-    <button class="btnlarge" id="generate">
-      Gerar Senha
-    </button>
-     <script src="gerador.js"></script>
-  </div>
-  
-</body>
-</html> -->
-
-
-
-<!-- mais uma opção -->
-
-<!-- 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="gerador.js" defer></script>
-  <link rel="stylesheet" href="style.css">
-  <title>Gerador de Senhas</title>
-</head>
-<body> -->
-
-<!-- teste projeto com modelo -->
 
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
@@ -217,7 +31,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+    <!-- <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head> -->
     </head>
     <body>
         <!-- -------------------------------------------------------------- -->
@@ -244,7 +58,7 @@
                     <div class="navbar-header" data-logobg="skin6">
                         <!-- This is for the sidebar toggle which is visible on mobile only -->
                         <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)">
-                            <i class="ri-close-line fs-6 ri-menu-2-line"></i>
+                            <i  class="ri-close-line fs-6 ri-menu-2-line" aria-hidden="true"></i>
                         </a>
                         <!-- -------------------------------------------------------------- -->
                         <!-- Logo -->
@@ -439,7 +253,7 @@
                     <nav class="sidebar-nav">
                         <ul id="sidebarnav" class="in">
                             <li class="nav-small-cap">
-                                <i class="mdi mdi-dots-horizontal"></i>
+                                <i class="mdi mdi-dots-horizontal" aria-hidden="true"></i>
                                 <span class="hide-menu">Ferramentas</span>
                             </li>
                             <li class="sidebar-item">
@@ -481,32 +295,40 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <label for="quantidadenumeros">Quantidade de caracteres</label>
+                                        <label for="quantidadenumeros">Tamanho da Senha:</label>
                                         <br>
                                         <form id="geradorform" class="form">
                                            
                                             <div class="form-group">
                                                 <div class="form-select">
-                                                    <input type="range" min="8" max="20" value="10"  class="form-range" id="quantidadeletras">
+                                                   
                                                     <!-- <input type="number" class="form-control" min="8" max="20" value="10" id="quantidadenumeros"> -->
                                                     <div class="input-group bootstrap-touchspin bootstrap-touchspin-injected"><span class="input-group-btn input-group-prepend"><button class="btn btn-primary bootstrap-touchspin-down" id="diminuirQuantidade" type="button">-</button></span><input type="number" class="form-control" min="8" max="20" value="10" id="demo3"><span class="input-group-btn input-group-append"><button class="btn btn-primary bootstrap-touchspin-up" id="aumentaQuantidade" type="button">+</button></span></div>
-                                                </div>
-                                                 
+
+                                                </div><br>
                                             </div>
+                                                <div id="form-rows">
+                                                    <label id="labelchar">Quantidade de caracteres:</label>
+                                                    <div id="quantidadeletrascontainer">
+                                                        <input type="range" min="8" max="20" value="10"  class="form-range" id="quantidadeletras">
+                                                    </div>
+                                                </div>
+                                          
                                                     <div class="multiselecao mt-4">
+                                                        <label>Caracteres utilizados:</label>
                                                         <div class="form-check form-check-inline">
                                                             <input class="form-check-input success check-light-success" type="checkbox" id="incluirmaiusculas" value="option1" >
-                                                            <label class="form-check-label" for="incluirmaiusculas">Incluir Maiúsculas</label>
+                                                            <label class="form-check-label" for="incluirmaiusculas">ABC</label>
                                                         </div>
 
                                                         <div class="form-check form-check-inline">
                                                             <input class="form-check-input success check-light-success" type="checkbox" id="incluirnumeros" value="option1" >
-                                                            <label class="form-check-label" for="incluirnumeros">Incluir Números</label>
+                                                            <label class="form-check-label" for="incluirnumeros">123</label>
                                                         </div>
                                                         
                                                         <div class="form-check form-check-inline">
                                                             <input class="form-check-input success check-light-success" type="checkbox" id="incluirsimbolos" value="option1" >
-                                                            <label class="form-check-label" for="incluirsimbolos">Incluir Símbolos</label>
+                                                            <label class="form-check-label" for="incluirsimbolos">$%!/</label>
                                                         </div>
                                                 </div>
                                             </div> 
@@ -667,7 +489,7 @@
                                 </div>
                             </div>
                             <div class="sl-item">
-                                <div class="sl-left bg-info"><i class="fas fa-image"></i></div>
+                                <div class="sl-left bg-info"><i class="fas fa-image" aria-hidden="true"></i></div>
                                 <div class="sl-right">
                                     <div class="font-weight-medium">Send documents to Clark</div>
                                     <div class="desc">Lorem Ipsum is simply </div>
@@ -722,7 +544,6 @@
        <script src="assets/js/feather.min.js"></script>
         <script src="assets/js/custom.min.js"></script>
         <!-- script para o gerador de senha -->
-        <script src="assets/js/gerador.js"></script>
-        <script src="assets/js/botoes.js"></script>
+        <script src="gerador/gerador.js"></script>
 </body>
 </html>
