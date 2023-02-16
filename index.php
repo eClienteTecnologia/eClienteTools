@@ -295,7 +295,7 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <label for="quantidadenumeros">Tamanho da Senha:</label>
+                                        <label for="quantidadenumeros">Quantidade de caracteres:</label>
                                         <br>
                                         <form id="geradorform" class="form">
                                            
@@ -308,7 +308,9 @@
                                                 </div><br>
                                             </div>
                                                 <div id="form-rows">
-                                                    <label id="labelchar">Quantidade de caracteres:</label>
+                                                    <div id="tamanhoseha">
+                                                        <label id="labelchar">Tamanho da Senha:</label>
+                                                    </div>
                                                     <div id="quantidadeletrascontainer">
                                                         <input type="range" min="8" max="20" value="10"  class="form-range" id="quantidadeletras">
                                                     </div>
