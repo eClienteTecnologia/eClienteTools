@@ -297,6 +297,7 @@ appearance: none;
   width: 100%;
   background: #00B4FF;
   border: 3px solid #00B4FF;
+  justify-content: center;
   z-index: -1;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);

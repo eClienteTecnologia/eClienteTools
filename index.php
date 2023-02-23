@@ -139,7 +139,8 @@ background: rgb(240, 7, 150);
                     slideValue.style.left = (value*20)-278+"px";
                     slideValue.classList.add("show");
                 });
-
+                
+                
                 // slideValue.style.left = (value*20)-278+"px";
                 // slideValue.style.left = (value*8.78)-120+"px";  
 
