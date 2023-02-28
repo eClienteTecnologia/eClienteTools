@@ -64,7 +64,7 @@ background: rgb(240, 7, 150);
         </div>
         <div class="logomenu">
             <a href="index.php">
-            <img src="assets/imagens/vector.svg" alt="">
+            <img src="assets/imagens/hamburger-svgrepo-com.svg" alt="">
             </a>
         </div>
        
