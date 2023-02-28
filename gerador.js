@@ -17,40 +17,9 @@ const codigo_simbolos = arrayFromLowToHigh(33, 47).concat(
   arrayFromLowToHigh(123, 126)
 )
 
-// let mais = document.getElementById('aumentaQuantidade');
-// let menos = document.getElementById('diminuirQuantidade');
 let input = document.getElementById('demo3');
 let valor = input.value;
 
-
-
-// mais.addEventListener('click', function mais(){
-//   if(valor > 19){
-//     valor 
-//   }
-//   else if(valor < 8){
-//     valor ++
-//   }
-//   else{
-//     valor ++
-//     input.value = valor
-//     quantidadeletras.value = valor
-//   }
-// })
-
-// menos.addEventListener('click', function menos(){
-//     if(valor > 20){
-//       valor 
-//     }
-//     else if(valor < 9){
-//       valor ++
-//     }
-//     else{
-//       valor --;
-//       input.value = valor
-//       quantidadeletras.value = valor
-//   }
-// })
 
 form.addEventListener('submit', e => {
 
