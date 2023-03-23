@@ -155,7 +155,7 @@ background: rgb(240, 7, 150);
                     
                     <div class="checkbutton">
                         <input class="check" type="checkbox" id="incluirsimbolos" value="option1" >
-                        <label class="label-check" for="incluirsimbolos">!@#*$</label>
+                        <label class="label-check" for="incluirsimbolos">!@#*$</label> 
                     </div>
                 </div>
                 <div id="conteiner-btn">
